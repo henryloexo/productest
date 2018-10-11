@@ -4,3 +4,7 @@
 -- A fallback event triggered anytime the targeted event is not provided
 -- Information regarding the triggered event are available in 'context' map
 print(context, event)
+local JSONreply = {}
+JSONreply.status = "requested"
+JSONreply.disabled = true
+return JSONreply
